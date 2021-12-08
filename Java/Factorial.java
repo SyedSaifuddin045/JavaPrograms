@@ -10,7 +10,7 @@ public class Factorial
         }
         return total;
     }
-    public static int recursion(int n)
+    public int recursion(int n)
     {
         if(n==1||n==0)
         {
@@ -19,6 +19,17 @@ public class Factorial
         else
         {
             return (n*recursion(n-1));
+        }
+    }
+    public static int fact(int n)
+    {
+        if(n==1||n==0)
+        {
+            return 1;
+        }
+        else
+        {
+            return (n*fact(n-1));
         }
     }
     public static void main(String[] args) 
@@ -30,7 +41,7 @@ public class Factorial
         }
         Factorial f=new Factorial();
         nonrecursive= f.nonrecursion(num);
-        recursive=Factorial.recursion(num);
+        recursive=f.recursion(num);
         System.out.println("Factorial through nonrecursive is ="+nonrecursive);
         System.out.println("Factorial through recursive is ="+recursive);
     }
