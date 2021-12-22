@@ -1,0 +1,113 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch ThreadPrinting",
+            "request": "launch",
+            "mainClass": "ThreadPrinting",
+            "projectName": "Programming_a9bf8da"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreeThreadProgram",
+            "request": "launch",
+            "mainClass": "ThreeThreadProgram",
+            "projectName": "Programming_a9bf8da"
+        },
+        {
+            "type": "java",
+            "name": "Launch ThreadProgram",
+            "request": "launch",
+            "mainClass": "ThreadProgram",
+            "projectName": "Programming_a9bf8da"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExceptionTest",
+            "request": "launch",
+            "mainClass": "ExceptionTest",
+            "projectName": "Programming_a9bf8da"
+        },
+        {
+            "type": "java",
+            "name": "Launch Employee",
+            "request": "launch",
+            "mainClass": "Employee",
+            "projectName": "Programming_a9bf8da"
+        },
+        {
+            "type": "java",
+            "name": "Launch Officer",
+            "request": "launch",
+            "mainClass": "Officer",
+            "projectName": "Programming_a9bf8da"
+        },
+        {
+            "type": "java",
+            "name": "Launch ObjectCount",
+            "request": "launch",
+            "mainClass": "ObjectCount",
+            "projectName": "Programming_a9bf8da"
+        },
+        {
+            "type": "java",
+            "name": "Launch Add",
+            "request": "launch",
+            "mainClass": "Add",
+            "projectName": "Programming_a9bf8da"
+        },
+        {
+            "type": "java",
+            "name": "Launch Sum",
+            "request": "launch",
+            "mainClass": "Sum",
+            "projectName": "Programming_a9bf8da"
+        },
+        {
+            "type": "java",
+            "name": "Launch Complex",
+            "request": "launch",
+            "mainClass": "Complex",
+            "projectName": "Programming_a9bf8da"
+        },
+        {
+            "type": "java",
+            "name": "Launch Factorial",
+            "request": "launch",
+            "mainClass": "Factorial",
+            "projectName": "Programming_a9bf8da"
+        },
+        {
+            "type": "java",
+            "name": "Launch Prime",
+            "request": "launch",
+            "mainClass": "Prime",
+            "projectName": "Programming_a9bf8da"
+        },
+        {
+            "name": "g++.exe - Build and debug active file",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${fileDirname}",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "C:\\MinGW\\bin\\gdb.exe",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "C/C++: g++.exe build active file"
+        }
+    ]
+}
