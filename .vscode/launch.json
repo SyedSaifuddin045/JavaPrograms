@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch LongSum",
+            "request": "launch",
+            "mainClass": "LongSum",
+            "projectName": "Programming_a9bf8da"
+        },
+        {
+            "type": "java",
             "name": "Launch ThreadPrinting",
             "request": "launch",
             "mainClass": "ThreadPrinting",
